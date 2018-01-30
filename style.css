@@ -93,20 +93,58 @@ button {
 	top: unset;
 }
 
+
+
+
+.mission{
+	width: 100%;
+	height: 500px;
+	background-color: white;
+}
+
+.missiontitle{
+	padding-top: 100px;
+	text-align: center;
+	margin:0;
+	font-size: 40px;
+}
+
+.missioninfo{
+	margin: 5% 35% 0 35%;
+	text-align: center;
+	width: 30%;
+	font-size: 20px;
+}
+
+.missiondonate{
+	text-align: center;
+	width: 300px;
+    height: 50px;
+    border: 1px solid #FFCD62;
+    background-color: #FFCD62;
+    margin: 3% 42% 0 42%;
+    font-size: 20px;
+}
+
+
+
+
 .student {
 	width: 100%;
 	height: 700px;
-	background-color: green;
+	background-color: #91D0B1;
 }
 
 .stuPic {
 	display: inline-block;
-	    width: 50%;
+	width: 50%;
 }
 
 .stuImg {
-	width: auto;
-	height: auto;
+	width: 50%;
+	height: 50%;
+	margin: 26% 0 0 40%;
+/*	float: right;*/
 }
 
 .paragraph {
@@ -114,12 +152,31 @@ button {
 	width: 30%;
 }
 
+.paratitle{
+	font-size: 52px;
+    font-family: 'Amatica SC', cursive;
+}
+
+.parainfo{
+	font-size: 20px;
+    font-family: 'Amatica SC', cursive;
+}
+
+.parabutton{
+	margin-top: 20px;
+    width: 300px;
+    height: 50px;
+    border: 1px solid #7CB69A;
+    border-radius: 5px;
+    background-color: #7CB69A;
+}
+
 .indicator {
 	display: inline-block;
 }
 
 .dot {
-	border: 10px solid grey;
+	border: 10px solid #7CB69A;
 	border-radius: 10px;
 	margin: 10px 0;
 }
@@ -127,3 +184,12 @@ button {
 .dot:hover {
 	border-color: white;
 }
+
+
+
+.tutors{
+	width: 100%;
+	height: 500px;
+	background-color: #FFCD62;
+}
+
