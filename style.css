@@ -4,6 +4,10 @@ header {
 	width: 100%;
 	background-color: #FCF9F4;
 }
+
+
+
+
 .logo {
 	width: 25%;
 	height: 100%;
@@ -84,7 +88,6 @@ button {
 	margin: 0 auto;
     text-align: center;
     padding-top: 300px;
-	font-family: "Amatica SC", cursive;
 }
 .arrowDown {
     position: absolute;
@@ -149,21 +152,27 @@ button {
 
 .paragraph {
 	display: inline-block;
-	width: 30%;
+	width: 35%;
+	position: absolute;
 }
 
+.paraBody{
+	display: inline-block;
+	width: 80%
+}
+
+
 .paratitle{
+	padding-top: 200px;
 	font-size: 52px;
-    font-family: 'Amatica SC', cursive;
 }
 
 .parainfo{
 	font-size: 20px;
-    font-family: 'Amatica SC', cursive;
 }
 
 .parabutton{
-	margin-top: 20px;
+	margin: 20px 0 0 0;
     width: 300px;
     height: 50px;
     border: 1px solid #7CB69A;
@@ -173,6 +182,7 @@ button {
 
 .indicator {
 	display: inline-block;
+	margin-left: 10%;
 }
 
 .dot {
@@ -189,7 +199,185 @@ button {
 
 .tutors{
 	width: 100%;
-	height: 500px;
+	height: 600px;
 	background-color: #FFCD62;
+}
+
+.tutorPara{
+	display: inline-block;
+	width: 50%;
+	padding: 0 0 0 25%;
+}
+
+.tutorTitle{
+	margin: 0 0;
+	padding-top: 200px;
+	width: 100%;
+	text-align: left;
+	font-size: 40px;
+}
+
+.tutorInfo{
+	margin: 0 0;
+	padding-top: 50px;
+	width: 100%;
+	text-align: left;
+	font-size: 20px;
+}
+
+.tutorButton{
+	margin: 50px 10% 0 0;
+	width: 300px;
+    height: 50px;
+    border: 1px solid #EABC5B;
+    background-color: #EABC5B;
+    font-size: 20px;
+}
+
+
+.tutorPic{
+	display: inline-block;
+	width: 45%;
+	position: absolute;
+}
+
+.tutorImg{
+	width: 50%;
+	height: 50%;
+	margin: 22% 0 0 10%;
+/*	float: right;*/
+}
+
+
+
+
+.partners{
+	width: 100%;
+	height: 600px;
+	background-color: #80A8CC;
+}
+
+.partPic{
+	display: inline-block;
+	width: 45%;
+
+}
+
+.partImg{
+	width: 50%;
+	height: 50%;
+	margin: 22% 0 0 40%;
+/*	float: right;*/
+}
+
+.partPara{
+	display: inline-block;
+	width: 50%;
+	position: absolute;
+}
+
+.partTitle{
+	margin: 0 0;
+	padding-top: 200px;
+	width: 100%;
+	text-align: left;
+	font-size: 40px;
+}
+
+.partInfo{
+	margin: 0 0;
+	padding-top: 50px;
+	width: 100%;
+	text-align: left;
+	font-size: 20px;
+}
+
+.partButton{
+	margin: 50px 10% 0 0;
+	width: 300px;
+    height: 50px;
+    border: 1px solid #6D91B1;
+    background-color: #6D91B1;
+    font-size: 20px;
+}
+
+
+
+.progress{
+	width: 100%;
+	height: 600px;
+	background-color: white;
+	margin: 0;
+}
+
+.progTitle{
+	text-align: center;
+	margin: 180px 0 0 0;
+	font-size: 50px;
+}
+
+.progGroup{
+	width: 45%;
+	margin:0 auto;
+}
+
+
+.hoursTutored{
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	border: 1px solid #cccccc;
+	margin: 50px 20px 0 20px;
+	color: #C3E2CF;
+}
+
+.sessionsHosted{
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	border: 1px solid #cccccc;
+	margin: 50px 20px 0 0;
+	color: #FFCD62;
+}
+
+.volunteerTutors{
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	border: 1px solid #cccccc;
+	margin: 50px 0 0 0;
+	color: #80A8CC;
+}
+
+h3{
+	text-align: center;
+	padding-top: 50px;
+	font-size: 40px;
+}
+
+.progInfo{
+	text-align: center;
+	padding-top: 30px;
+	font-size: 25px;
+}
+
+
+
+.foot{
+	background-color: #4D4E59;
+	width: 100%;
+	height: 100px;
+}
+
+.footNote{
+	margin: 0 auto;
+	width: 150px;
+}
+
+.footInfo{
+	text-align: center;
+	margin: 0;
+	padding-top: 40px;
+	display: inline-block;
 }
 
