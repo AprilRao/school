@@ -105,6 +105,12 @@ button {
 	background-color: white;
 }
 
+.missionbody{
+	width: 30%;
+	margin: 0 auto;
+}
+
+
 .missiontitle{
 	padding-top: 100px;
 	text-align: center;
@@ -113,11 +119,19 @@ button {
 }
 
 .missioninfo{
-	margin: 5% 35% 0 35%;
 	text-align: center;
-	width: 30%;
+	width: 80%;
+	padding-top: 50px;
+	margin: 0 auto;
 	font-size: 20px;
 }
+
+.missionbutton{
+	width: 300px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
 
 .missiondonate{
 	text-align: center;
@@ -125,8 +139,8 @@ button {
     height: 50px;
     border: 1px solid #FFCD62;
     background-color: #FFCD62;
-    margin: 3% 42% 0 42%;
     font-size: 20px;
+    margin: 0;
 }
 
 
